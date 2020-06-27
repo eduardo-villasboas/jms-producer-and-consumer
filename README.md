@@ -41,7 +41,7 @@ Run script create-artemis-container.sh . This script should be ran once time and
 
 Run sudo docker start artemis-prod-cons
 
-#### How to send a messa for processes.
+#### How to send a message for producer processes.
 
 curl -X GET http://localhost:8080/api/test-controller/send-message
 
